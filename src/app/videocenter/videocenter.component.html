@@ -1,0 +1,3 @@
+<app-video-detail *ngIf="selectedVideo" [video]="selectedVideo"></app-video-detail>
+
+<app-video-list (SelectVideo)="onSelectVideo($event)" [videos]="videos"></app-video-list>
